@@ -1,4 +1,4 @@
-function lengthOfLongestSubstring(s) {
+function lengthOfLongestSubstring(s: string): number {
   let map = new Map(), max = 0;
   for (let i = 0, j = 0; j < s.length; j++) {
       if (map.has(s[j])) {
